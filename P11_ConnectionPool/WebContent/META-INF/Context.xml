@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+auth : 자원관리자
+name : 설정을 구별하는 이름
+type : 데이터 소스
+driverClassName : 드라이버
+url : DB 경로
+username : 접속 계정
+password : 접속 비밀번호
+maxActive : 최대 연결 갯수
+maxIdle : 사용되지 않고  풀에 저장될 수 있는 커넥션 수
+maxWait : 사용 가능 커넥션이 없을 때 대기 시간 ( 1/1000ch, - 값이면 무한 대기 )
+ -->
+<Context>
+	<Resource auth="Container"
+			name="jdbc/oracle"
+			type="javax.sql.DataSource"
+			driverClassName="oracle.jdbc.OracleDriver"
+			url="jdbc:oracle:thin:@localhost:1521:xe"
+			username="dbtest"
+			password="a1234"
+			maxActive="20"
+			maxIdle="3"
+			maxWait="-1">	
+	</Resource>
+</Context>

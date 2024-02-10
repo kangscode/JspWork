@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> input 태그 </title>
+</head>
+<body>
+<!-- 
+	# form 태그
+	  - 사용자가 입력한 데이터를 서버에 전송 시키기 위해서 사용하는 태그입니다
+	    <form action="" name="" method="">
+	    > action   : form에서 작성한 내용을 받는 파일 지정
+	      name     : form을 식별하기 위한 이름
+	      method   : form을 서버에 전송하는 http 메서드 지정
+	    
+	# input 태그
+	  - form 태그 안에 사용하는 요소 중에서 가장 중요한 요소로 사용자로부터 데이터를 입력받기 위해 사용합니다
+	    <input type="" name="" value="">
+	    > type  : 입력 태그의 형태 지정
+	      name  : 서버로 전달되는 이름 지정
+	      value : 입력 변수의 초기값을 설정
+	      
+	# label 태그
+	  - input 태그의 text 이름을 지정합니다    
+ -->
+ 	 <form action="#" method="get">
+ 	 	<fieldset>
+ 	 		<legend> 내용입력 </legend>
+ 	 		<label> ID </label>
+ 	 		<input type="text" id="userid" name="userid" maxlength="10"><br>
+ 	 		
+ 	 		<label> 이름 </label>
+ 	 		<input type ="text" id="username" name="username" maxlength="20"><br>
+ 	 		
+ 	 		<label> 비밀번호 </label>
+ 	 		<input type="password" id="userpw" name="userpw"><br>
+ 	 		
+ 	 		<label> 메모 </label> <br>
+ 	 		<textarea id="memo" name="memo" rows="5" cols="50"></textarea><br>
+ 	 		<br>
+ 	 		<input type="hidden" id="secret" name="secret" value="비밀">
+ 	 		<br>
+ 	 		<input type="submit" value="보내기">
+ 	 	</fieldset>
+ 	 </form>
+ 	 
+</body>
+</html>

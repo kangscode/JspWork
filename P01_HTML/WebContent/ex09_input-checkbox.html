@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 체크박스, 라디오</title>
+</head>
+<body>
+<!-- 
+	# checkbox
+	  - 하나의 name에 value 값만 다르게 구성해서 여러개를 선택할 수 있습니다
+ -->
+ 	<h1> checkbox, radio </h1>
+	<br>
+	<form action="">
+		<fieldset>
+			<legend> 취미 선택 </legend>
+			<input type="checkbox" id="hobby1" name="hobby" value="축구">
+			<label for="hobby1"> 축구 </label>
+			<input type="checkbox" id="hobby2" name="hobby" value="야구">
+			<label for="hobby2"> 야구 </label>
+			<input type="checkbox" id="hobby3" name="hobby" value="농구" checked>
+			<label for="hobby3"> 농구 </label>
+		</fieldset>
+		
+		<fieldset>
+			<legend> 선택 </legend>
+			<input type="radio" id="yes" name="sel" value="y">
+			<label for="yes"> 예 </label>
+			<input type="radio" id="no" name="sel" value="n">
+			<label for="no"> 아니오 </label>
+		</fieldset>
+		<br>
+		<input type="submit" value="완료">
+	</form>
+
+
+</body>
+</html>

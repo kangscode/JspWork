@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> member </title>
+</head>
+<body>
+	<form action="http://localhost:8080/P06_Servlet/memberServlet" method="get">
+		<table border="1">
+			<tr>
+				<td> 이 름 </td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td> 성 별 </td>
+				<td>
+					<input type="radio" name="gender" value="남성" checked> 남
+					<input type="radio" name="gender" value="여성"> 여
+				</td>
+			</tr>
+			<tr>
+				<td> 취 미 </td>
+				<td>
+					<input type="checkbox" name="hobby" value="독서"> 독서
+					<input type="checkbox" name="hobby" value="영화"> 영화
+					<input type="checkbox" name="hobby" value="음악"> 음악
+					<input type="checkbox" name="hobby" value="게임"> 게임
+					<input type="checkbox" name="hobby" value="쇼핑"> 쇼핑
+				</td>
+			</tr>
+			<tr>
+				<td> 과 목 </td>
+				<td>
+					<select name="subject" size="5" multiple>
+						<option value="JAVA">JAVA</option>
+						<option value="JSP">JSP</option>
+						<option value="Spring">Spring</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" value="보내기"> &nbsp;
+					<input type="reset" value="취소">
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

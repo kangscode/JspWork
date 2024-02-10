@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 셀 병합 </title>
+<style type="text/css">
+td {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<!-- 
+	# 셀 합치기
+	  - 테이블의 셀과 셀을 합칠 수 있습니다
+	    > colspan : 셀을 가로로 합칠 때 사용합니다
+	      rowspan : 셀을 세로로 합칠 때 사용합니다
+ -->
+	<h1> 셀 병합 </h1>
+	<br>
+	<table border="1" width="300">
+		<caption> 행 통합 테이블 </caption>
+		 <tr>
+		 	<td> 1행 </td><td> 1행 1열 </td>
+		 </tr>
+		 <tr>
+		 	<td rowspan="2"> 2행 </td><td> 2행 1열 </td>
+		 </tr>
+		 <tr>
+		 	<td> 2행 2열 </td>
+		 </tr>
+	</table>
+	<br>
+	
+	<table border="1" width="300">
+		<caption> 열 통합 테이블 </caption>
+		<tr>
+			<td> 1열 </td><td colspan="2"> 1행 2열 </td>
+		</tr>
+		<tr>
+			<td> 2행 1열 </td><td> 2행 2열 </td><td> 2행 2열 </td>
+		</tr>
+	</table>
+	
+	
+	
+	
+</body>
+</html>

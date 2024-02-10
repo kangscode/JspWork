@@ -1,0 +1,13 @@
+
+
+< DataBase.txt >
+
+# DB ( database )
+- 전자방식으로 저장된 구조화된 정보 또는 데이터의 체계적인 집합을 의미합니다
+- 데이터베이스 관리 시스템(DBMS)에 의해서 제어됩니다
+
+# 데이터베이스 관리 시스템 ( DBMS : Database Management System )
+- 데이터를 편리하게 저장하고 효율적으로 관리할 수 있는 환경을 제공해주는 프로그램입니다
+
+# sqldeveloper 실행 안될 때
+ - java -> jdk 폴더 -> jre -> bin 안에 'mscer100.dill 파일 넣기

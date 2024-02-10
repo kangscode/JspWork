@@ -1,0 +1,86 @@
+
+
+# Cookie
+1. 개요
+- HTTP 프로토콜은 웹 브라우저의 요청에 대한 응답을 하고 나면 클라이언트와의 연결을 지속하지 않습니다
+상태가 없는 프로토콜을 위해 상태를 지속시키기 위한 방법입니다
+- 정보를 웹 브라우저에 저장하며, 클라이언트 측에서 관리됩니다
+
+2. Cookie 사용
+- Cookie 생성
+  > new Cookie ( String name, String value )
+- cookie를 response 객체에 추가
+  > response.addCookie( cookie )
+- request 객체에 실려온 쿠키를 읽어 올 때
+  > Cookie[] cookie = request.getCookie()
+  
+3. Cookie 사용 순서
+- 1) Cookie 생성
+  2) Cookie 설정
+  3) 웹 브라우저에 생성된 Cookie 전송
+
+4. 웹 브라우저에 전송된 Cookie를 사용하는 절차
+- 1) 웹 브라우저 요청에서 Cookie 얻기
+  2) Cookie라는 이름, 값의 쌍으로 된 배열형태로 반환됩니다
+  3) Cookie 이름을 통해서 Cookie에 설정된 값을 가져옵니다
+  
+  
+# 세션 ( session )
+1. session
+- 웹 서버 쪽의 웹 컨테이너에 상태를 유지하기 위한 정보를 저장합니다
+  > 웹 브라우저당 1개씩 생성되어 웹 컨테이너에 저장합니다
+- 내장 객체이므로 객체를 따로 만들지 않아도 됩니다
+
+2. session 사용
+-  1) session 속성 결정
+	  : session 객체의 setAttribute() 메서드를 사용
+   2) session 속성 사용
+      : session 객체의 getAttribute() 메서드를 사용
+   3) session 속성 삭제
+      : session 객체의 removeAttribute() 메서드를 사용
+   4) session 무효화
+      : session 객체의 invalidate() 메서드를 사용
+      
+
+# 영역과 속성
+- 영역( scope ) : 데이터의 공유 범위
+  > 내장객체를 뜻하고, 내장객체의 유지 범위에 따라 달라집니다
+
+  1. page 영역 - pageContext
+     - 해당 페이지 내에서만 사용되는 객체
+  2. request 영역
+     - 클라이언트의 요청이 처리되는 동안 유효한 범위
+  3. session 영역
+     - session이 유지되는 동안 처리되는 범위, 웹 브라우저가 실행되는 동안 유지됩니다
+  4. application 영역
+     - 웹 서버가 유지되는 동안 유효한 범위. 웹 서버당 하나만 생성됩니다
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+           
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

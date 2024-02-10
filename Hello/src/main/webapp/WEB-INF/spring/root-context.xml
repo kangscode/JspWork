@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- 
+		Controller를 제외한 객체들을 설정하는 xml파일..
+		 - DAO, DTO, Service, DB ...
+	 -->
+	 
+	 <!-- 
+	 	bean == 객체
+	 	 - id - 객체명
+	 	 - class - 객체로 만들 클래스의 경로와 이름
+	 	 - scope - 객체의 생성과 유지 범위를 지정하는 속성
+	 	 
+	 	 scope 타입은 기본값이 singleton으로 설정되어 있다
+	 	 요청시마다 생성하게 하려면 prototype으로 설정하면 된다
+	 	 
+	 	 session, request는 잘 안되서 사용을 잘 하지 않는다
+	  -->
+	  
+	 <!-- PersonDTO p1 = new PersonDTO(); -->
+	 <bean id="p1" class="dto.PersonDTO" scope="prototype">
+	 	<!-- setter 인젝션 -->
+	 	<!-- dto.setName("강성준"); -->
+	 	<property name="name" value="강성준"/>
+	 	<property name="age" value="20"/>
+	 	<property name="tel" value="010-8958-9587"/>
+	 </bean>
+	 
+	 <!-- PersonDTO p2 = new PesonDTO("홍길동, "30", "010-1111-1234"); -->
+	 <bean id="p2" class="dto.PersonDTO" scope="singleton">
+	 	<!-- 생성자 인젝션 -->
+	 	<constructor-arg value="홍길동"/>
+	 	<constructor-arg value="30"/>
+	 	<constructor-arg value="010-1111-1234"/>
+	 </bean>
+</beans>

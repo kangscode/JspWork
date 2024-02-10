@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 입력 페이지 </title>
+<script type="text/javascript">
+	function testClick() {
+		var name = document.getElementById("username");
+		if(name.value == ""){
+			alert("이름을 입력하세요!!");
+			}
+		else {
+			document.formtest.submit();
+		}
+	}
+</script>
+</head>
+<body>
+	<h1> 보내기 </h1>
+	<br>
+	<form action="ex17_result.html" name="formtest" method="get">
+		<label> 이름 : </label>
+		<input type="text" id="username" name="username">
+		<br><br>
+		<input type="submit" value="완료"> &nbsp; <input type="reset" value="취소">	
+		<br>
+		<input type="button" value="입력 확인" onclick="testClick()">
+	</form>
+
+ 
+</body>
+</html>

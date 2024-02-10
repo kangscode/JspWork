@@ -1,0 +1,47 @@
+
+
+# Servlet
+- 자바 언어를 기반으로 하는 웹 프로그래밍 기술입니다
+- 자바 class 안에 HTML 태그를 포함할 수 있습니다
+
+# tomcat의 servlet-api.jar 설정
+- 서블릿 API는 톰캣의 servlet-api.jar 라이브러리로 제공되므로 클래스 패스를 설정해야 사용할 수 있습니다
+- tomcat 폴더 -> lib -> servlet-api.jar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

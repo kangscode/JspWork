@@ -1,0 +1,39 @@
+
+# 파일 업로드에 필요한 요소
+- 파일을 입력받은 form의 메서드 및 enctype
+  > enctype : form data가 서버로 보내질 때 인코딩 타입
+  			  method="post" enctype="multipart/form-data"
+- 업로드 파일이 저장된 폴더
+  > storage
+- 파일을 업로드하고 form을 분석하는 라이브러리
+  > cos.jar
+  
+# cos.jar 다운로드
+- http://servlets.com/cos
+  > cos-20.08.zip 파일 다운로드
+- 프로젝트의 라이브러리 폴더에 넣어서 사용합니다
+  > WebContent/WEB_INF/lib
+
+# eclipse 에서는 가상폴더, 실제폴더가 따로 있습니다
+- 가상 폴더
+  > workspace\프로젝트명\WebContent\storage
+- 실제 폴더
+  > 작업폴더\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\프로젝트명\storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

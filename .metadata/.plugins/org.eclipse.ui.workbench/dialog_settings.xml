@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.file"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.wst.server.ui"/>
+			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="true"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\DI.zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome (9).zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome (7).zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome (5).zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome (4).zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome (3).zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome (1).zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\MyHome.zip"/>
+			<item value="C:\Users\GRAM\OneDrive\바탕 화면\P05_Student.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+	</section>
+</section>

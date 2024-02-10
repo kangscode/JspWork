@@ -1,0 +1,15 @@
+127.0.0.1 - - [27/Sep/2021:11:26:31 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:26:35 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:26:35 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:27:08 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 369
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:27:18 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 380
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:29:42 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 392
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:30:14 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 392
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:30:55 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:30:58 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:31:22 +0900] "GET /MyHome/member/myPage.jsp HTTP/1.1" 200 1766
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:31:22 +0900] "GET /MyHome/resources/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:31:44 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:31:44 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:31:44 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:11:32:51 +0900] "GET /MyHome/board/boardview.jsp HTTP/1.1" 200 1007

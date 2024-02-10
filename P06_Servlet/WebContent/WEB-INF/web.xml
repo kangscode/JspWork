@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>P06_Servlet</display-name>
+  
+  <!-- 
+  	브라우저에서 요청하는 맵핑 이름에 대해서 실제로 실행하는 서블릿 클래스를 설정하는 태그입니다
+  	<servlet> 항목을 보면 컨테이너가 관리하는 웹 애플리케이션에는 어떠한 것들이 있는 지 알 수 있습니다
+   -->
+  <servlet>
+  <!-- 
+  	servlet-name 태그는 servlet 태그와 servelt-mapping 태그를 연결시켜 줍니다
+  	servlet-mapping 태그의 servlet-name 태그와 값이 동일합니다
+   -->
+  	<servlet-name> ex01 </servlet-name>
+  	
+  	<!-- 
+  		브라우저에서 요청하는 맵핑 이름에 대해서 실제로 기능을 수행하는 서블릿 클래스를 설정합니다
+  	 -->
+  	<servlet-class>ex01.LifeCycle</servlet-class>
+  </servlet>
+  
+  <servlet>
+ 	<servlet-name> ex02 </servlet-name>
+ 	<servlet-class>ex02.HelloServlet</servlet-class>
+ </servlet>
+  
+ <servlet>
+ 	<servlet-name> param </servlet-name>
+ 	<servlet-class>ex03.ParamServlet</servlet-class>
+ </servlet> 
+ 
+
+  
+  <!--
+  런타임시 요청이 들어오면 컨테이너는 <servlet-mapping> 항목을 검색 합니다 -->
+ <servlet-mapping>
+ 	<servlet-name> ex01 </servlet-name>
+ 	<!-- 웹 브라우저에서 요청하는 맵핑 이름 -->
+ 	<url-pattern>/life</url-pattern>
+ </servlet-mapping>
+ 
+
+ <servlet-mapping>
+ 	<servlet-name> ex02 </servlet-name>
+ 	<url-pattern>/hello</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet-mapping>
+ 	<servlet-name> param </servlet-name>
+ 	<url-pattern>/paramServlet</url-pattern>
+ </servlet-mapping>
+ 
+
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\GRAM\OneDrive\πŸ≈¡ »≠∏È\JSP\jsp_util\JspWork\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1201404909.index
+4005953615.index
+983326011.index
+4219279280.index
+3459121727.index
+3874379659.index
+3468540739.index
+4125603335.index
